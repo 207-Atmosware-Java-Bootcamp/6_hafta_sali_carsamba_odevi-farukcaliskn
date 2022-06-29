@@ -2,7 +2,7 @@ import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
 
-public class Main {
+public class DiziSortSearch {
 	public static void main(String[] args) {
 		int getData = getData();
 		int[] array = returnArray(getData);
@@ -164,7 +164,6 @@ public class Main {
 	}
 
 	public static int controlRemoveAgain(int[] dizi, int number) {
-		int control = 0;
 		for (int i = 0; i < dizi.length; i++) {
 			if (dizi[i] == number) {
 				return 0;
